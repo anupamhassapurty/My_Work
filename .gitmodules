@@ -1,0 +1,6 @@
+[submodule "Vim"]
+	path = Vim
+	url = https://github.com/anupamhassapurty/Vim.git
+[submodule "Mtech-Project"]
+	path = Mtech-Project
+	url = https://github.com/anupamhassapurty/Mtech-Project.git
