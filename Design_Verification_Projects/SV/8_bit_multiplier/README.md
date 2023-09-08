@@ -1,23 +1,34 @@
-# 8 Bit Multiplier Verification Plan
+# 8-Bit Synchronous Multiplier Verification Plan
 
-## Objective
-The objective of this project is to verify the functionality of an 8-bit multiplier designed in System Verilog. The verification will ensure that the multiplier performs accurate binary multiplication of two 8-bit inputs, producing a correct 16-bit product as output.
+## EDA Playground Simulation
 
-## Inputs
-- Two 8-bit binary numbers.
+You can explore and simulate this verification project online [Click Here](https://edaplayground.com/x/iGVL).
 
-## Expected Output
-- A 16-bit binary product resulting from the multiplication of the input values.
+## Project Overview
 
-## Verification Methodology
-- This verification project utilizes the System Verilog language and follows the Universal Verification Methodology (UVM) for verification.
-- Verification tests and sequences are designed to verify the correctness of the multiplier's operation under various scenarios and corner cases.
-- Assertions and coverage metrics will be employed to ensure comprehensive verification.
+This project focuses on the verification of an 8-bit synchronous multiplier (DUT) written in System Verilog. The DUT has two 8-bit inputs and produces a 16-bit output. The goal is to ensure that the multiplier performs correct multiplications.
 
-## Online Simulation
-You can simulate this project online and verify the waveforms and outputs in the console window. [Simulate Now](https://your-personal-website.com/simulator).
+## Verification Environment
 
-## Repository Purpose
-This repository serves as a resource to view the verification code and methodologies used in the verification of an 8-bit multiplier. It provides insights into digital logic verification and the verification of arithmetic modules.
+### Testbench Architecture
 
-Please feel free to explore the code and methodologies within this repository.
+The verification environment consists of the following components:
+- **Testbench:** Generates stimuli and manages the verification flow.
+- **DUT (Design Under Test):** The 8-bit synchronous multiplier to be verified.
+- **Scoreboard:** Compares the DUT's output with the expected results.
+- **Monitor:** Observes and collects data from the DUT for analysis.
+- **Random Transaction Generator:** Generates random test cases.
+
+### Verification Process
+
+1. **Test Case Generation:** Random transactions are generated using the Random Transaction Generator, creating various input scenarios.
+
+2. **Stimulus Generation:** The testbench applies 10 random transactions as stimuli to the DUT's inputs.
+
+3. **DUT Operation:** The DUT performs multiplication based on the given inputs.
+
+4. **Scoreboard Verification:** The Scoreboard checks the DUT's output against expected results.
+
+5. **Result Reporting:** Based on the comparison:
+   - If correct multiplication occurs, the message "Multiplication Data Matched" is sent.
+   - If multiplication is incorrect, the message "Error In Multiplication" is sent.
