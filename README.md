@@ -8,7 +8,7 @@
 - **Client Whisperer:** Excellent at spotting and reporting real failures directly to clients.
 - **Coverage Geek:** Crafting VDB and exclusion lists for flawless coverage analysis.
 - **Toolsmith:** Adept with Synopsys DVE, Vim, and Python scripting.
-- **Team Player:** Strong analytical skills, effective communication, and a team superstar.
+- **Team Player:** Strong analytical skills, effective communication, and dedicated to sucess of the team.
 
 ## 🚀 Ready to Collaborate!
 I thrive on challenges and am open to exciting opportunities. Whether it's elevating your ASIC/IP verification or joining forces on a project, let's connect and make amazing things happen! 
