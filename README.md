@@ -3,7 +3,7 @@
 🔌 ASIC/IP Verification Engineer with 2+ years of experience in System Verilog and UVM.
 
 ## 🎓 Education:
-- 🎓 M.Tech in [VLSI Design] - [VIT University Vellore]
+- 🎓 M.Tech in VLSI Design - VIT University Vellore
 
 ## 💼 What I Offer:
 - **Verification Wiz:** Expertise in ASIC/IP verification using System Verilog/UVM, uncovering hidden bugs, and enhancing quality.
