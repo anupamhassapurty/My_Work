@@ -1,6 +1,10 @@
 # Verification Plan for 4-bit Synchronous Adder
 
-Welcome to the verification plan for the 4-bit Synchronous Adder project! This document outlines the key aspects of our verification strategy for this design.
+This document outlines the key aspects of our verification strategy for this design.
+
+## Simulation and Verification
+
+You can simulate and verify this design [Click Here](https://edaplayground.com/x/gqyK)
 
 ## Design Overview
 
@@ -26,29 +30,8 @@ Our verification environment is built using the Universal Verification Methodolo
 2. **Driver Execution:**
    - The driver drives the randomized transactions into the DUT.
    - It waits for 2 clock cycles to account for the DUT's response.
-
 3. **Monitor and Scoreboard:**
    - The monitor captures the DUT's outputs (sum and carry).
    - The scoreboard compares the DUT's results with the expected results.
    - If the DUT's output matches the expected output, the test passes.
    - If there is a mismatch, the test fails, and an error message is displayed.
-
-## Running the Simulation
-
-1. Compile your code and testbench.
-2. Run the simulation and generate a VCD (Value Change Dump) file.
-3. Verify the simulation results.
-
-## Contributors
-
-- Anupam Hassa Purty (GitHub: [Your GitHub Profile](https://github.com/yourusername))
-
-## Simulation and Verification
-
-You can simulate and verify this design on [EDA Playground](https://www.edaplayground.com/).
-
-**Note**: Make sure to set up your EDA Playground workspace correctly before simulating.
-
-Feel free to explore the code, run simulations, and contribute to this project.
-
-Happy verifying!
