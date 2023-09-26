@@ -1,6 +1,14 @@
 # Verification Plan for 4-Bit Synchronous Multiplier
 
-Welcome to the verification plan for the 4-bit synchronous multiplier design! This document outlines the objectives, features, and testing approach for this verification project.
+This document outlines the objectives, features, and testing approach for this verification project.
+
+## Simulating and Verifying
+
+You can simulate and verify this 4-bit synchronous multiplier design online on EDA Playground.
+
+👉 [Click Here](https://edaplayground.com/x/7ivv)
+
+Feel free to explore the code and run your own simulations to verify the functionality of the multiplier.
 
 ## Objectives
 
@@ -39,17 +47,6 @@ The primary goal of this verification project is to thoroughly validate the func
 4. **Scoreboard**: The 'scoreboard' class verifies if the multiplication results ('mul') match the expected results ('m * n') for each transaction.
 
 5. **Result Reporting**: The scoreboard reports whether the multiplication data matched or if any errors occurred. Results are displayed in the simulation log.
-
-## Simulating and Verifying
-
-You can simulate and verify this 4-bit synchronous multiplier design on EDA Playground. EDA Playground is an online platform that allows you to run simulations and observe waveforms.
-
-👉 [Simulate and Verify on EDA Playground](LINK_TO_EDA_PLAYGROUND)
-
-Feel free to explore the code and run your own simulations to verify the functionality of the multiplier.
-
 ---
 
 This verification plan provides an overview of the objectives, features, and testing approach for the 4-bit synchronous multiplier design. For more details, explore the code and run simulations on EDA Playground. If you have any questions or encounter any issues, please don't hesitate to reach out.
-
-Happy coding and verifying!
